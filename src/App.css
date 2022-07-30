@@ -1,0 +1,126 @@
+
+
+.App{
+    width:100%;
+    height:700px;
+    border: 1px solid black;
+}
+.container{
+    width:100%;
+    height:700px;   
+}
+.main{
+    width:100%;
+    height:50px;
+    border: 1px solid black;
+    display: flex;
+    background-color:black;
+
+}
+.header1{
+    width:50%;
+    height:50px;
+
+}
+.header2{
+    width:50%;
+    height:50px;
+    display: flex;
+    justify-content: right;
+    color: white;
+    padding: 10px;
+    margin-right:40px;
+
+}
+.details:hover{
+    background-color:lightskyblue;
+    color:black;
+}
+.home{
+    width: 400px;
+    height:400px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    transition:1s;
+    z-index: 1; 
+
+}
+.homeslide{
+    width:0;
+    height:0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    z-index: 1;
+    transition:1s;
+}
+.submit{
+    width:400px;
+    height:400px;
+    transition:1s;
+    z-index: 1;
+    background-color:black;
+}
+.submit input{
+    width:300px;
+    height: 40px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 20px;
+}
+.submit button{
+    width:200px;
+    height:50px;
+    border-radius: 16px;
+    background-color: greenyellow;
+}
+.submit span{
+    color:red;
+}
+.details{
+    width: 100px;
+    height:40px;
+    text-align: center;
+    padding-top:10px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.section{
+    width:100%;
+    height:650px;
+    
+}
+.section img{
+    width:100%;
+    height:100%;
+}
+.login1{
+    width:600px;
+    height:700px;
+    background-color: black;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.login2{
+    width: 0;
+    height: 0;
+    z-index: 1;
+    transition: 1s;
+
+}
+.login{
+    margin-left: 40px;
+    margin-right: 20px; 
+}
+.table{
+    width:100%;
+    height:100px;
+    background-color: rgb(131, 131, 225);
+    color:white;
+}
